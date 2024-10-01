@@ -4,7 +4,7 @@ import { db } from './initializeDB';
 async function fetchAllPlants() {
     const plantsRef = collection(db, "allPlants");
     
-    const q = query(plantsRef, limit(8));
+    const q = query(plantsRef, limit(20));
     
     const allPlantsDocs = await getDocs(q);
 
