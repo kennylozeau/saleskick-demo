@@ -2,12 +2,12 @@
 
 ## Overview
 
-This project is an app that allows users to explore different plants and track plants that are owned, and eventually will allow users to troubleshoot issues with their plants. The inspiration for this app came from my passion for collecting houseplants that I often have no experience with taking care of.
+This project is an app that allows users to explore different plants and track plants that are owned, and eventually will allow users to troubleshoot issues with their plants. The inspiration for this app came from my passion for collecting houseplants that I often have no prior experience owning.
 
 ## Running Locally
 
 1. Clone the repo from GitHub
-2. cd into the demo directory: `cd demo`
+project2. cd into the demo directory
 3. Install dependencies: `npm install`
 4. Add Firebase Initialization object:
    1. Open `/demo/src/utils/initializeDB.js`
