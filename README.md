@@ -9,9 +9,9 @@ This project is an app that allows users to explore different plants and track p
 1. Clone the repo from GitHub
 2. cd into the demo directory: `cd demo`
 3. Install dependencies: `npm install`
-4. Add Firebase API Key:
+4. Add Firebase Initialization object:
    1. Open `/demo/src/utils/initializeDB.js`
-   2. Replace API_PLACEHOLDER string on line 6 with correct API Key: `const API_PLACEHOLDER = 'real api key'`
+   2. Replace API_PLACEHOLDER object on line 6 with correct API Initialization object: `const API_PLACEHOLDER = {}`
 5. Run the application: `npm run dev`
 6. Open app in browser: `http://localhost:5173/`
 
